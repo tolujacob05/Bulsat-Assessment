@@ -187,3 +187,44 @@ body {
 /* background: #ffff; */
 /* border-radius: 50px; */
 /* } */
+
+@media screen and (max-width: 480px) {
+  .cross {
+    width: 390px;
+    height: 450px;
+  }
+
+  .cross:before {
+    width: 30%;
+    height: 125%;
+  }
+
+  .cross:after {
+    height: 27%;
+    width: 95%;
+  }
+
+  .item-1 {
+    transform: translateX(-150%);
+  }
+
+  .item-3 {
+    transform: translateX(10%);
+  }
+
+  .move-2 > span {
+    position: absolute;
+    bottom: 11.5rem;
+  }
+
+  .parent {
+    width: 60px;
+    height: 140px;
+  }
+
+  .light {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+  }
+}
